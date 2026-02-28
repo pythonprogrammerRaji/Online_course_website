@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>course</title>
+</head>
+<body>
+    <section>
+       <div class="navbar">
+       <div>
+            <p><img src="assets/images/logo.avif" alt="logo"><span>LearnSmart</span></p>
+       </div>
+       <div class="menuToggle" onclick="menubar()" id="menuIcon">
+        <span></span>
+        <span></span>
+        <span></span>
+       </div>
+       <nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Courses </a>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+       </nav>
+    </div>
+
+    <!-- Banner -->
+     <div class="about_1">
+        <img src="assets/images/about us.jpg" alt="">
+        <div class="about_text">
+            <h1>Course Us</h1>
+        </div>
+     </div>
+
+    <div class="course-container">
+        <div class="course-section">
+            <div class="course-row1">
+                <img src="assets/images/ai.jpg" alt="ai">
+                <div class="course_text">
+                    <h2>Artificial intelligents</h2>
+                    <p>Artificial Intelligence (AI) refers to the ability of machines to mimic human-like intelligence, including learning, problem-solving, and decision-making. AI systems analyze data, identify patterns, and make predictions, often through techniques like machine learning and deep learning. AI is transforming various industries, from healthcare. </p>
+                </div>
+            </div>
+
+            <div class="course-row1">
+                <img src="assets/images/python.png" alt="ai">
+                <div class="course_text">
+                    <h2>Pyhton FullStack</h2>
+                    <p>A Python full-stack developer is a web developer proficient in both the front-end and back-end aspects of web application development, using Python as their primary language. They handle the entire development process, from designing the user interface (front-end) to building the server-side logic and database interactions (back-end). </p>
+                </div>
+            </div>
+
+            <div class="course-row1">
+                <img src="assets/images/Data-science.jpg" alt="ai">
+                <div class="course_text">
+                    <h2>Data science</h2>
+                    <p>Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from data, encompassing both structured and unstructured data. It involves a combination of various fields like statistics, mathematics, computer science, and domain expertise to analyze data. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-section">
+            <div class="course-row1">
+                <img src="assets/images/java.jpg" alt="ai">
+                <div class="course_text">
+                    <h2>Java FullStack</h2>
+                    <p>Java Full Stack Development refers to the development of both front-end (client-side) and back-end (server-side) parts of a web application. This involves using Java programming language for server-side development, along with front-end technologies like HTML, CSS, JavaScript, and frameworks like Angular.</p>
+                </div>
+            </div>
+
+            <div class="course-row1">
+                <img src="assets/images/digital-marketing.webp" alt="ai">
+                <div class="course_text">
+                    <h2>Digital Marketing</h2>
+                    <p>Digital marketing is the promotion of products and services through digital channels, primarily the internet, but also including mobile devices, social media, search engines, and other digital platforms. It's a modern approach to marketing that leverages various digital tools and techniques to reach a wider audience.</p>
+                </div>
+            </div>
+
+            <div class="course-row1">
+                <img src="assets/images/excel.jpg" alt="ai">
+                <div class="course_text">
+                    <h2>Excel</h2>
+                    <p>Microsoft Excel is a powerful spreadsheet program used for organizing, analyzing, and managing data. It allows users to store information in a grid of cells, perform calculations using formulas and functions, and create visualizations like charts and graphs. Excel is widely used in data </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="contact-left">
+            <h3>Contact Us</h3>
+            <p>We're here to help! Whether you have questions, feedback, or just want to say hello, we'd love to hear from you. Please feel free to reach out to us using the contact information provided below or fill out the form on this page.</p>
+            <br>
+            <div class="contact-info">
+                <p><i class="fa-solid fa-phone"></i>+91 - 8904561613</p>
+                <br>
+                <p><i class="fa-solid fa-envelope"></i><a href="mailto:clover.info@gmail.com">clover.info@gmail.com</a></p>
+                <br>
+                <p><i class="fa-solid fa-location-dot"></i> Magadi Road Kamakshipalya   <br>    Bengalore Karnataka, PIN 560079</p>
+            </div>
+
+            <p>For urgent inquiries outside of our operating hours, please leave us a message, and we'll get back to you as soon as possible.
+            </p>
+            <p>Thank you for choosing Clover Informatics! We appreciate your business and look forward to assisting you.</p>
+        </div>
+        
+        <div class="contact-right">
+            <form>
+                <div class="input-box">
+                    <label for="Name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+            
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+            
+                <div class="input-box">
+                    <label for="mobile">Mobile</label>
+                    <input type="number" id="mobile" name="mobile" placeholder="Enter your number" required>
+                </div>
+                    
+                <div class="input-box">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter subject" required>
+                </div>
+            
+                <div class="input-box">
+                    <label for="meassge">Message</label>
+                    <input type="text" id="message" name="message" placeholder="Message">
+                </div>
+            
+                <button class="btn1" type="button" onclick="ContactFormSubmit()">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="footer">
+        <div class="row">
+            <div class="col">
+                <img src="assets/images/logo.avif" class="logo" >
+                <span>LearnSmart</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, rerum ut nam porro esse amet, repellat debitis facilis quia in dignissimos architecto veritatis totam! Nisi nobis inventore veniam. Ex, laboriosam.</p>
+            </div>
+
+            <div class="col">
+                <h1>Quick Links</h1>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Courses.html">COURSE</a></li>
+                    <li><a href="blogs.html">BLOGS</a></li>
+                    <li><a href="contact.html">CONTACTS</a></li>
+                </ul>
+            </div>
+
+            <div class="col address">
+                <h1>Get on Touch</h1>
+                <p><i class="fa-solid fa-envelope"></i><a href="mailto:rajeshwarirajeshwari34879@gmail.com">Raji@gamil.com</a></p>
+                <p><i class="fa-solid fa-phone"></i>+91 - 0123456789</p>
+                <p><i class="fa-solid fa-location-dot"></i> Magadi Road <br> Kamakshipalya Bengalore  <br> Karnataka PIN 560079</p>
+                
+            </div>
+            <div class="col icons">
+                <h1>Follow Us</h1>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <script>
+          function menubar(){
+            let nav = document.getElementById('navLinks');
+            let icons = document.getElementById('menuIcon');
+            nav.classList.toggle('show');
+
+            icons.classList.toggle('active')
+        };
+    </script>
+</body>
+</html>
