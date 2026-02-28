@@ -1,0 +1,482 @@
+/* mobile device */
+@media (min-width:10px) and (max-width:600px){
+   section{
+        overflow: hidden;
+    }
+    .navbar{
+         height: 300px;
+
+    }
+    .navbar div p{
+        float: left;
+        font-size: 20px;
+        color: white;
+        position: relative;
+        top: -100px;
+        left: 20px;
+    }
+    .navbar div p img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .navbar p span{
+        position: relative;
+        left: 60px;
+        top: -22px;
+        font-size: 22px;
+    }
+    .navbar ul{
+        position: relative;
+        left: -25%;
+        top: 40px;
+    }
+
+    .navbar ul li{
+        position: relative;
+        list-style: none;
+        width: 100%;
+        cursor: pointer;
+        left: right;
+    }
+    .navbar ul li:hover{
+        box-shadow: 0 0 5px #33ffff,
+                    0 0 5px #66ffff;
+        border-radius: 5px;
+        color: cyan;
+
+    }
+    .banner_text{
+        display: block;
+    }
+    .banner_1{
+        width: 100%;
+        height:600px;
+    }
+    .banner_1 img{
+        width: 100%;
+        height: 350px;
+    }
+    .banner_text{
+        position: relative;
+        top: -200px;
+        color: white;
+        left: 10px;
+    }
+    .banner_text h1{
+        font-size: 15px;
+    }
+    .banner_text p{
+            font-size: 13px;
+    }
+    .banner_btn{
+            font-size: 10px;
+            border-radius: 20px;
+    }
+
+    /* about */
+    
+    .about-home h1{
+        font-size: 20px;
+        margin-top: -220px;
+    }
+    .container{
+        display:block;
+        width: 90%;
+        gap: 0px;
+    }
+    .contact-section{
+        min-width: 100%;  
+        position: relative;
+        left: 10px;      
+    }
+    .image-section{
+        overflow-y: hidden;   
+        min-width: 100%;
+        position: relative;
+        margin-top: -10%;
+        height: 500px; 
+        flex-wrap: wrap;
+
+    }
+    .image-section img{
+         min-width: 100%; 
+         height: 350px; 
+         
+    }
+    /* about page */
+    .about_text{
+         font-size: 18px;
+         color: white;
+    }
+
+    /* blogs */
+
+    .gallery, .gallery1{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .gallery div, .gallery1 div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 20px;
+        margin: 0px;
+        flex-wrap: wrap;
+        padding: 10px;
+    } 
+    .gallery-data{
+        margin-top: 30px;
+    }
+    /* conract */
+    .row1{
+        margin: 0%;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .card{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 70%;
+        min-height: fit-content;
+    }
+    .location{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .location iframe{
+        width: 100%;
+        padding: 0px;
+        margin: 20px;
+        flex-wrap: wrap;
+        
+    }
+    
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px;
+        height: fit-content;
+    }
+    .contact-left{
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+    .contact-right{
+        padding: 0;
+        margin: 0;
+        z-index: -2;
+        padding: 10px;
+        width: 400px;
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+    /* course */
+
+    .course-section{
+       flex-wrap: wrap;
+        width: 100%;
+        margin: 0px 0px;
+        padding: 20px;
+        height: fit-content;
+       
+    }
+    .course-row1{
+         flex-direction: column;
+         width: 100%;
+        
+    }
+     /* footer */
+    footer{
+        bottom: unset;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+    .col{
+        flex-basis: 100%;
+    }
+    .col:nth-child(2), .col:nth-child(3){
+        flex-basis: 100%;
+    }
+    .icons i{
+        margin: 10px;
+    }
+
+  /* toggle bar */
+    .menuToggle{
+        display: flex;
+        position: relative;
+        top: -100px;
+        right: -300px;
+    }
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        background-color: #5d5656;
+        min-width: 600px !important;
+        /* padding: 10px; */
+        border-radius: 8px;
+        margin-left: -0%;
+        margin-top: 20px;
+        z-index: 0.1;
+        
+    }
+    .nav-links.show{
+        display: flex;
+    }
+
+    /* to X hide the ul text */
+
+    .menuToggle span {
+        height: 4px;
+        width: 30px;
+        background-color: white;
+        margin: 4px 0;
+        transition: 0.4s;
+        
+    }
+
+/* Animation: Turn 3 bars into an X */
+    .menuToggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(14px, 14px);
+    }
+
+    .menuToggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menuToggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(3px, -3px);
+    }
+
+}
+
+/* tab */
+@media (min-width:601px) and (max-width:1000px){
+
+    .navbar{
+         height: 300px;
+    }
+    .navbar div p{
+        float:inline-end;
+        font-size: 20px;
+        color: white;
+        position: relative;
+        top: -110px;
+        left: 0px;
+    }
+    .navbar div p img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .navbar p span{
+        position: relative;
+        left: 60px;
+        top: -22px;
+        font-size: 22px;
+    }
+    .navbar ul{
+        margin-top: 50px;
+        position: relative;
+        left:2%;
+    }
+  .navbar ul li{
+        position: relative;
+        list-style: none;
+        width: 100%;
+        cursor: pointer;
+        text-align: center;
+    }
+    .navbar ul li:hover{
+        box-shadow: 0 0 5px #33ffff,
+                    0 0 5px #66ffff;
+        border-radius: 5px;
+        color: cyan;
+        width: fit-content;
+
+    }
+    .banner_text{
+        position: relative;
+        top: -200px;
+        color: white;
+        left: 10px;
+    }
+    .banner_text h1{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    .banner_text p{
+        font-size: 15px;
+        margin-top: 10px;
+        word-spacing: 2px;
+    }
+    .banner_btn{
+            font-size: 10px;
+            border-radius: 20px;
+    }   
+    .banner_1 img{
+        width: 105%;
+        height: 300px;
+    }
+    .banner_btn{
+        font-size: 13px;
+        border-radius: 20px;
+    }
+
+
+    /* about */
+     .about-home h1{
+        font-size: 26px;
+        margin-top: -450px;
+    }
+    .container{
+        display:block;
+        width: 90%;
+        gap: 0px;
+    }
+    .contact-section{
+        min-width: 100%;  
+        position: relative;
+        left: 10px;    
+    }
+    .image-section{
+        overflow-y: hidden;   
+        min-width: 100%;
+        position: relative;
+        margin-top: -10%;
+        height: 800px;
+
+
+    }
+    .image-section img{
+         min-width: 100%;   
+    }
+
+    /* course */
+    .course-container{
+        min-height: fit-content;
+    }
+    .course-section{
+        flex-wrap:wrap;
+        width: 90%;
+        margin: 0px 20px;
+        padding: 20px; 
+        min-height: fit-content !important;
+       
+    }
+    .course-row1{
+         flex-direction: column;
+         width: 100%;
+         min-height: 300px;
+        
+    }
+
+    /* about page */
+    .about_text{
+         font-size: 22px;
+         color: white;
+    }
+
+    /* blogs */
+
+    .gallery, .gallery1{
+        width: 100%;
+        margin-left: 0px;
+
+    }
+    .gallery div, .gallery1 div{
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 20px;
+        margin: 0px;
+        flex-wrap: wrap;
+        padding: 10px;  
+    }
+    .gallery-data{
+        margin-top: 20px;
+    }
+    .gallery-card img{
+        width: 100%;
+    }
+
+
+    /* contact */
+
+    .contact{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .contact-left{
+        float: none;
+        width: 100%;
+    }
+    .contact-right{
+        padding: 0;
+        margin: 0;
+        z-index: -2;
+        padding: 10px;
+        width: 150%;
+        /* flex-wrap: wrap; */
+    }
+    .contact-right form{
+        min-width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+    }
+    .row1{
+        margin: 10px;
+    }
+    .card{
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    form input{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+        border-radius: 5px;
+        font-size: 15px;  
+        
+    }
+     /* footer */
+    footer{
+        bottom: unset;
+        padding: 0px;
+        flex-wrap: wrap;
+        position: absolute;
+    }
+    .col{
+        flex-basis: 50%;
+    }
+    .col:nth-child(2), .col:nth-child(4), .col:nth-child(3){
+        flex-basis: 50%;
+        justify-content: end;
+        gap: 20px;
+    }
+    .row1{
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .location iframe{
+        width: 100%;
+        margin: 0px;
+    }
+
+
+}
